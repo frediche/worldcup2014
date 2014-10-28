@@ -1,0 +1,679 @@
+/* Feuille de style */
+.chrome {
+	position: absolute;
+	top:5px;
+	right:0px;
+	left:0px;
+	margin:auto;
+	font-size:10px;
+	color:#DF0101;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+a.chrome {
+	color: #BDBDBD;
+	font-weight:bold;
+}
+.banner {
+	position: relative;
+	text-align: center;
+	margin: 30px;
+}
+.logo_sol {
+	position: absolute;
+	top: 30px;
+	left: 70px;
+}
+.info {
+	position: absolute;
+	top: 50px;
+	right: 50px;
+	width: 150px;
+    border-radius: 1em;
+	text-align: center;
+	color: white;
+	background-color: #5FB404;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	z-index:9;
+	font-weight:bold;
+}
+a.infolink {
+	color: white;
+	font-size:11px;
+}
+.menu {
+	position: relative;
+	text-align: center;
+	color: #0B610B;
+	font-weight:bold;
+	margin:30px;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+a.menulink {
+	color: #0B610B;
+	text-decoration: none;
+}
+
+/* login.php et inscrip.php */
+.form {
+	position: relative;
+	text-align: center;
+	color: #5FB404;
+	margin:30px;
+	line-height:15px;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+a.formlink {
+	color: #5FB404;
+}
+
+/*index.php*/
+/*
+	border: 1px solid #CCC;
+*/
+.endgame {
+	position: relative;
+	text-align: center;
+	color: #5FB404;
+	width: 700px;
+	margin-left:auto;
+	margin-right:auto;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+.video {
+	position: relative;
+	margin-left:auto;
+	margin-right:auto;
+	width:900px;
+	margin-top:50px;
+}
+
+.match1 , .match2 {
+	position: relative;
+	width: 800px;
+    border-radius: 1em;
+	text-align: center;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	margin-left:auto;
+	margin-right:auto;
+	line-height:5px;
+	font-size:15px;
+	margin-top:20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	z-index: 0;
+}
+.match1 {
+	color: #424242;
+	background-color: #E1F5A9;
+	height: 200px;
+}
+.match2 {
+	color: #848484;
+	background-color: #E6E6E6;
+	height: 100px;
+}
+.match_header {
+	position: absolute;
+	top: 15px;
+	left: 0px;
+	right: 0px;
+	margin: auto;
+	font-size:12px;
+	font-weight:bold;
+}
+.match_stats {
+	position: absolute;
+	top: 75px;
+	left: 0px;
+	right: 0px;
+	margin: auto;
+}
+.match_team1 , .match_team2  {
+	position: absolute;
+	top: 30px;
+	font-size: 25px;
+}
+.match_team1 {
+	left: 10px;
+}
+.match_team2 {
+	right: 10px;
+}
+.match_options {
+	position: absolute;
+	bottom: 10px;
+	right: 30px;
+	border-radius: 1em;
+	background-color: #c7d79a;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #424242;
+}
+.match_cotes {
+	position: absolute;
+	top: 100px;
+	left: 70px;
+}
+.match_more {
+	position: absolute;
+	bottom: 12px;
+	left: 110px;
+	border-radius: 1em;
+	background-color: #c7d79a;
+	height: 23px;
+	width: 65px;
+	text-align: center;
+	font-size:12px;
+	font-weight:bold;
+	line-height:0px;
+}	
+a.match1link {
+	color: #424242;
+}
+a.match2link {
+	color: #848484;
+}
+.match_diffusion {
+	position: absolute;
+	top: 3px;
+	left: 0px;
+	right: 0px;
+	margin: auto;
+}
+
+/*bet.php*/
+.bet {
+	position: relative;
+	width: 800px;
+	height: 400px;
+    border-radius: 1em;
+	text-align: center;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	margin-left:auto;
+	margin-right:auto;
+	line-height:5px;
+	font-size:15px;
+	margin-top:20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: #E1F5A9;
+	color: #424242;
+	z-index: 0;
+}
+
+.bet_choice {
+	text-align: left;
+	position: absolute;
+	top: 230px;
+	right: 80px;
+}
+.bet_penalty {
+	text-align: left;
+	position: absolute;
+	top: 280px;
+	right: 80px;
+}
+.bet_size {
+	position: absolute;
+	top: 230px;
+	left: 130px;
+}
+.bet_allin {
+	position: absolute;
+	top: 300px;
+	left: 147px;
+}
+.bet_valid {
+	position: absolute;
+	top: 350px;
+	left: 0px;
+	right: 0px;
+	margin: auto;
+}
+fieldset {
+    border: 0;
+}
+
+/*histo.php*/
+.histobet1 , .histobet2 {
+	position: relative;
+	width: 800px;
+	height: 200px;
+    border-radius: 1em;
+	text-align: center;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	margin-left:auto;
+	margin-right:auto;
+	line-height:5px;
+	font-size:15px;
+	margin-top:20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	z-index: 0;
+}
+.histobet1 {
+	color: #424242;
+	background-color: #E1F5A9;
+}
+.histobet2 {
+	color: #848484;
+	background-color: #E6E6E6;
+}
+a.histobet1link {
+	color: #848484;
+}
+.score1 , .score2 {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size:30px;
+	position: absolute;
+	top: 50px;
+}
+.score1 {
+	left: 300px;
+}
+.score2 {
+	right: 300px;
+}
+
+/*rank.php*/
+.player {
+	position: relative;
+	width: 500px;
+	height: 30px;
+    border-radius: 0.5em;
+	text-align: center;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10px;
+	color: #424242;
+	background-color: #FACC2E;
+	vertical-align: middle;
+	font-weight:bold;
+}
+.player_name , .player_credit {
+	position: absolute;
+}
+.player_name {
+	top: 5px;
+	left: 20px;
+	font-size:15px;
+}
+a.player_name_link {
+	text-decoration: none;
+	color: #424242;
+}
+.player_credit {
+	top: 2px;
+	right: 20px;
+	font-size:20px;
+}
+.player_change_rank , .team_change_rank {
+	position: relative;
+	width: 170px;
+	height: 20px;
+    border-radius: 0.5em;
+	text-align: center;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+	margin-bottom:20px;
+	color: #424242;
+	vertical-align: middle;
+	font-weight:bold;
+}
+.player_change_rank {
+	background-color: #D0A9F5;
+}
+.team_change_rank {
+	background-color: #FACC2E;
+}
+a.change_rank_link {
+	color: #424242;
+	text-decoration: none;
+}
+.rank_nb {
+	position: absolute;
+	top: 2px;
+	right: 530px;
+	font-size:20px;
+}
+.succes_issue, .succes_score {
+	position: absolute;
+	top: 5px;
+	font-size:10px;
+}
+.succes_issue {
+	right: 210px;
+}
+.succes_score {
+	right: 140px;
+}
+
+/*match.php*/
+.match_general {
+	position: relative;
+	width: 800px;
+	height: 200px;
+	text-align: center;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	margin-left:auto;
+	margin-right:auto;
+	line-height:5px;
+	font-size:15px;
+	margin-top:20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #424242;
+}
+.player_after {
+	position: relative;
+	width: 500px;
+	height: 60px;
+    border-radius: 0.5em;
+	text-align: center;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10px;
+	color: #424242;
+	background-color: #FACC2E;
+	vertical-align: middle;
+	font-weight:bold;
+}
+.match_player_choice {
+	position: absolute;
+	top: 5px;
+	right: 100px;
+	font-size:15px;
+	font-weight:normal;
+}
+.match_player_gain {
+	position: absolute;
+	top: 32px;
+	right: 20px;
+	font-size:15px;
+}
+
+/*player.php*/
+.player_fiche_general {
+	position: relative;
+	width: 400px;
+	height: 100px;
+	text-align: center;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	margin-left:auto;
+	margin-right:auto;
+	line-height:5px;
+	font-size:15px;
+	margin-top:20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #424242;
+}
+.player_fiche_name {
+	position: absolute;
+	top: 30px;
+	font-size:20px;
+	left: 30px;
+}
+.player_fiche_solde {
+	position: absolute;
+	top: 10px;
+	font-size:20px;
+	right: 30px;
+}
+.player_fiche_team {
+	position: absolute;
+	text-align: center;
+	top: 70px;
+	right:0px;
+	left:0px;
+	width:200px;
+	margin:auto;
+	font-weight: bold;
+	background-color: #D0A9F5;
+	border-radius: 0.5em;
+	line-height:1px;
+}	
+.player_fiche_bet {
+	position: relative;
+	margin-top: 20px;
+	width: 400px;
+	height: 100px;
+	border-radius: 0.5em;
+	text-align: center;
+	margin-left:auto;
+	margin-right:auto;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	color: #424242;
+}
+.player_fiche_bet_pays1 , .player_fiche_bet_pays2  {
+	position: absolute;
+	top: 10px;
+	font-size: 15px;
+}
+.player_fiche_bet_pays1 {
+	left: 10px;
+}
+.player_fiche_bet_pays2 {
+	right: 10px;
+}
+.player_fiche_bet_score1 , .player_fiche_bet_score2 {
+	font-size:15px;
+	position: absolute;
+	top: 10px;
+	font-weight:bold;
+}
+.player_fiche_bet_score1{
+	left: 180px;
+}
+.player_fiche_bet_score2 {
+	right: 180px;
+}
+.player_fiche_bet_choice {
+	position: absolute;
+	top:40px;
+	left:0px;
+	right:0px;
+	margin: auto;
+}
+.player_fiche_bet_gain  {
+	position: absolute;
+	top:70px;
+	right:0px;
+	left:0px;
+	margin:auto;
+}
+.player_fiche_bet_details {
+	position: absolute;
+	bottom:10px;
+	font-size:10px;
+	right: 0px;
+	left: 0px;
+	margin: auto;
+}
+
+/*tree.php*/
+.tree_match {
+	position: absolute;
+	width: 100px;
+	height: 30px;
+	text-align: center;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	color: #424242;
+	border-radius: 0.5em;
+	font-size: 7px;
+}
+.tree_team1 {
+	position: absolute;
+	top: 2px;
+	left: 2px;
+}
+.tree_team2 {
+	position: absolute;
+	top: 17px;
+	left: 2px;
+}
+.tree_score1 {
+	position: absolute;
+	top: 3px;
+	right: 5px;
+	font-weight:bold;
+	font-size: 10px;
+}
+.tree_score2 {
+	position: absolute;
+	top: 18px;
+	right: 5px;
+	font-weight:bold;
+	font-size: 10px;
+}
+.tree_poule {
+	position: absolute;
+	width: 130px;
+	height: 240px;
+	border: 1px solid #848484;
+	text-align: center;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	color: #424242;
+	border-radius: 0.5em;
+	font-size: 12px;
+	background-color:#F7D358;
+}
+.tree_poule_title {
+	position: absolute;
+	top: 6px;
+	right: 0px;
+	left: 0px;
+	margin: auto;
+	font-size: 12px;
+	font-weight:bold;
+}
+.tree_quart {
+	position: absolute;
+	width: 580px;
+	height: 110px;
+	border: 1px solid #848484;
+	text-align: center;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	color: #424242;
+	border-radius: 0.5em;
+	font-size: 12px;
+	background-color:#F7D358;
+}
+.tree_final {
+	position: absolute;
+	width: 280px;
+	height: 110px;
+	border: 1px solid #848484;
+	text-align: center;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	color: #424242;
+	border-radius: 0.5em;
+	font-size: 12px;
+	background-color:#F7D358;
+}
+
+/*rules.php*/
+.rules {
+	position: relative;
+	text-align: left;
+	width: 700px;
+	color: #0B610B;
+	margin:auto;
+	left:0px;
+	right:0px;
+	line-height:20px;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+
+/*teamrank.php*/
+.team {
+	position: relative;
+	width: 500px;
+	height: 30px;
+    border-radius: 0.5em;
+	text-align: center;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10px;
+	color: #424242;
+	background-color: #D0A9F5;
+	vertical-align: middle;
+	font-weight:bold;
+}
+
+/*flow.php*/
+.flow_title {
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	text-align: center;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size:20px;
+	font-weight:bold;
+	color:black;
+}	
+.flow_bet {
+	position:relative;
+	width: 500px;
+	height: 40px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10px;
+	background-color:#F1F8E0;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+.flow_bet_flag1 {
+	position: absolute;
+	top: 10px;
+	left: 20px;
+}
+.flow_bet_flag2 {
+	position: absolute;
+	top: 10px;
+	left: 150px;
+}
+.flow_bet_teams {
+	position: absolute;
+	top: 10px;
+	left: 40px;
+	text-align: center;
+	width: 110px;
+	font-weight:bold;
+}
+.flow_bet_username {
+	position: absolute;
+	text-align: right;
+	top: 10px;
+	right: 80px;
+	font-weight:bold;
+}
+.flow_bet_size {
+	position: absolute;
+	top: 8px;
+	right: 10px;
+	font-weight:bold;
+}
+
+/*chrome.php*/
+.chrome_popup {
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	text-align: center;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+
+/*viz_legend*/
+.viz_legend {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	position: absolute;
+	font-size: 10px;
+	z-index:-2;
+}
